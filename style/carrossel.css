@@ -21,13 +21,11 @@
     position: initial;
     margin: .5em 0;
 }
-.card descricao {
 
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 0.5em;
-    }
- /*CARD*/
+/*card*/
+
+
+/*CARD*/
 .card__descricao {
     display: flex;
     justify-content: space-between;
@@ -47,7 +45,7 @@
     margin: 0 0.5em;
     }
 
-    .botoes__ancora {
+.botoes__ancora {
         background-color: var(--laranja);
         padding: 1em 2.2em;
         color: var(--branco);
@@ -64,18 +62,19 @@
     }
 
 .descricao__titulo {
-        color: var(--laranja);
+        color: orange;
         font-weight: 700;
+        font-size: 19px;
  }
 
 .descricao__titulo-livro {
-        color: var(--azul);
-        font-size: 18px;
+        color: rgb(11, 11, 105) ;
+        font-size: 17px;
         font-weight: 700;
         margin: 0.5em 0;
 }
 
 .descricao__texto {
        font-size: 14px;
-        color: var(--branco);
+        color: black;
 }
